@@ -11,10 +11,11 @@ my_dict = {"Alexei id: ":555, "Denis id: ": 567, "Nikolay id ": 752, "Номер
 print(my_dict)
 print(my_dict["Nikolay id "]) # вывод по существующему
 my_dict["Количество обращений "] = 15
-print(my_dict) # вывод по не существующему ключу
+print(my_dict.get("Sasha")) # вывод по не существующему ключу
 my_dict.update({"Обращений сегодня ": 2,
                 "Обращений вчера ": 5})
 print(my_dict)
+print()
 print()
 
 new_dict = my_dict.pop("Nikolay id ")
@@ -41,29 +42,8 @@ my_set.remove(18)
 print(my_set)
 print()
 
-print("Ссылка на GitHub - ")
+print("Ссылка на GitHub - https://github.com/Alexei-DergiLink/module-1-PracticGIT-BaseStructureDate/blob/main/7-PZ-Slovari-I-Mnogestva.py")
 
 print()
 print("Больше о методах словарей - https://docs.python.org/3/library/stdtypes.html#dict")
 print("Больше о методах множеств - https://docs.python.org/3/library/stdtypes.html#set")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
